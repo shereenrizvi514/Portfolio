@@ -25,6 +25,13 @@ function Counter({ value }) {
   );
 }
 
+const ABOUT_DETAILS = [
+  { label: "Name", value: PROFILE.name },
+  { label: "University", value: PROFILE.university },
+  { label: "Degree", value: PROFILE.degree },
+  { label: "Semester", value: PROFILE.semester },
+];
+
 export default function About() {
   return (
     <section id="about" className="relative px-6 py-28">
@@ -44,9 +51,24 @@ export default function About() {
             className="space-y-6"
           >
             <p className="text-lg leading-relaxed text-white/70">{PROFILE.bio}</p>
-            <div className="glass rounded-2xl p-6">
+
+            <div className="glass grid grid-cols-1 gap-4 rounded-2xl p-6 sm:grid-cols-2">
+              {ABOUT_DETAILS.map((detail) => (
+                <div
+                  key={detail.label}
+                  className="transition-transform duration-300 hover:-translate-y-0.5"
+                >
+                  <p className="font-mono text-xs uppercase tracking-[0.2em] text-cyan">
+                    {detail.label}
+                  </p>
+                  <p className="mt-1 text-sm text-white/80">{detail.value}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="glass rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-1">
               <p className="font-mono text-xs uppercase tracking-[0.2em] text-cyan">
-                Currently
+                Currently Learning
               </p>
               <p className="mt-2 text-white/80">
                 Studying Artificial Intelligence at Pak Austria Fachhochschule,
