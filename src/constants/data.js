@@ -3,9 +3,10 @@ export const PROFILE = {
   firstName: "Shereen",
   role: "BS Artificial Intelligence Student & Web Developer",
   taglineWords: [
-    "I build with AI.",
-    "I build for the web.",
-    "I build things that work.",
+    "Ideas -> Reality.",
+    "Modern Web Experience.",
+    "I build things that work."
+    "I build intelligent solutions.",
   ],
   bio: "BS Artificial Intelligence student passionate about Artificial Intelligence, Machine Learning, and Web Development. I enjoy building responsive web applications and AI-based solutions while continuously improving my technical and problem-solving skills. Currently seeking internship opportunities to gain real-world experience.",
   university: "Pak-Austria Fachhochschule Institute of Applied Sciences and Technology",
