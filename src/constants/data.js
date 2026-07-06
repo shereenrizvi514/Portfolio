@@ -7,7 +7,10 @@ export const PROFILE = {
     "I build for the web.",
     "I build things that work.",
   ],
-  bio: "Ambitious BS Artificial Intelligence student with hands-on experience in web development and core AI concepts. I like building project-based applications end to end — from a console-based hospital management system in C++ to a responsive, theme-switching author profile page in HTML/CSS/JS. Motivated to take initiative, lead projects, and keep growing in applied AI.",
+  bio: "BS Artificial Intelligence student passionate about Artificial Intelligence, Machine Learning, and Web Development. I enjoy building responsive web applications and AI-based solutions while continuously improving my technical and problem-solving skills. Currently seeking internship opportunities to gain real-world experience.",
+  university: "Pak-Austria Fachhochschule Institute of Applied Sciences and Technology",
+  degree: "BS Artificial Intelligence",
+  semester: "4th Semester",
   location: "Wah Cantt, Pakistan",
   email: "shreenzehra098@gmail.com",
   phone: "0314-0988877",
@@ -41,6 +44,14 @@ export const SKILL_CATEGORIES = [
       { name: "HTML", level: 92 },
       { name: "CSS", level: 88 },
       { name: "Python", level: 55 },
+    ],
+  },
+  {
+    category: "Web & AI",
+    skills: [
+      { name: "React", level: 75 },
+      { name: "SQL", level: 65 },
+      { name: "Machine Learning", level: 60 },
     ],
   },
   {
