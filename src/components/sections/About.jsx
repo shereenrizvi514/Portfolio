@@ -72,8 +72,10 @@ export default function About() {
               </p>
               <p className="mt-2 text-white/80">
                 Studying Artificial Intelligence at Pak Austria Fachhochschule,
-                building independent projects alongside coursework, and open
-                to internship opportunities in AI or web development.
+                building foundational machine learning skills as an ML Intern
+                at Hayder AI Solutions, and taking part in AuratTech's Tech
+                Fellowship — all while growing my web development skills
+                through independent projects.
               </p>
             </div>
           </motion.div>
