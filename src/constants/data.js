@@ -2,7 +2,7 @@ export const PROFILE = {
   name: "Syeda Shereen Zehra",
   firstName: "Shereen",
   role: "BS Artificial Intelligence Student & Web Developer",
-  taglineWords: [
+taglineWords: [
     "Building AI-powered solutions.",
     "Creating modern web experiences.",
     "I build things that work."
