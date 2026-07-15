@@ -3,12 +3,12 @@ export const PROFILE = {
   firstName: "Shereen",
   role: "BS Artificial Intelligence Student & Web Developer",
   taglineWords: [
-    "Ideas -> Reality.",
-    "Modern Web Experience.",
+    "Building AI-powered solutions.",
+    "Creating modern web experiences.",
     "I build things that work."
-    "I build intelligent solutions.",
+    "Ideas -> Reality",
   ],
-  bio: "BS Artificial Intelligence student passionate about Artificial Intelligence, Machine Learning, and Web Development. I enjoy building responsive web applications and AI-based solutions while continuously improving my technical and problem-solving skills. Currently seeking internship opportunities to gain real-world experience.",
+  bio: "Ambitious BS Artificial Intelligence student with hands-on experience in web development and core AI concepts. Currently building foundational machine learning skills while contributing to a tech fellowship and a machine learning internship. Skilled in building project-based applications and working in remote, collaborative team environments.",
   university: "Pak-Austria Fachhochschule Institute of Applied Sciences and Technology",
   degree: "BS Artificial Intelligence",
   semester: "4th Semester",
@@ -23,7 +23,7 @@ export const PROFILE = {
 export const STATS = [
   { label: "Projects Built", value: 8 },
   { label: "Years Learning AI", value: 2 },
-  { label: "Internship Completed", value: 1 },
+  { label: "Internships & Fellowships", value: 3 },
   { label: "Languages & Tools", value: 10 },
 ];
 
@@ -78,6 +78,24 @@ export const SKILL_CATEGORIES = [
 ];
 
 export const EXPERIENCE = [
+  {
+    date: "June 2026 — Present",
+    title: "Machine Learning Intern",
+    org: "Hayder AI Solutions",
+    points: [
+      "Recently joined as a Machine Learning Intern, currently building foundational knowledge in machine learning concepts and tools through structured, hands-on learning.",
+      "Collaborating remotely with the team while developing practical ML skills alongside academic coursework.",
+    ],
+  },
+  {
+    date: "June 2026 — Present",
+    title: "Tech Fellow — Tech Fellowship",
+    org: "AuratTech",
+    points: [
+      "Selected for AuratTech's Tech Fellowship, a structured cohort-based program combining mentorship, training sessions, and collaborative projects in technology.",
+      "Participating in fellowship orientation and ongoing programme activities focused on building industry-ready technical skills.",
+    ],
+  },
   {
     date: "July 2025 — August 2025",
     title: "Web Development Intern",
