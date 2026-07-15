@@ -2,10 +2,10 @@ export const PROFILE = {
   name: "Syeda Shereen Zehra",
   firstName: "Shereen",
   role: "BS Artificial Intelligence Student & Web Developer",
-taglineWords: [
+  taglineWords: [
     "Building AI-powered solutions.",
     "Creating modern web experiences.",
-    "I build things that work."
+    "I build things that work.",
     "Ideas -> Reality",
   ],
   bio: "Ambitious BS Artificial Intelligence student with hands-on experience in web development and core AI concepts. Currently building foundational machine learning skills while contributing to a tech fellowship and a machine learning internship. Skilled in building project-based applications and working in remote, collaborative team environments.",
@@ -19,14 +19,14 @@ taglineWords: [
   githubHandle: "@shereenrizvi514",
   resumeUrl: "/Syeda_Shereen_Zehra_CV.pdf",
 };
-
+ 
 export const STATS = [
   { label: "Projects Built", value: 8 },
   { label: "Years Learning AI", value: 2 },
   { label: "Internships & Fellowships", value: 3 },
   { label: "Languages & Tools", value: 10 },
 ];
-
+ 
 export const NAV_LINKS = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
@@ -35,7 +35,7 @@ export const NAV_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
-
+ 
 export const SKILL_CATEGORIES = [
   {
     category: "Languages",
@@ -76,7 +76,7 @@ export const SKILL_CATEGORIES = [
     ],
   },
 ];
-
+ 
 export const EXPERIENCE = [
   {
     date: "June 2026 — Present",
@@ -123,7 +123,7 @@ export const EXPERIENCE = [
     points: ["Completed pre-engineering intermediate studies."],
   },
 ];
-
+ 
 export const PROJECTS = [
   {
     title: "AI-Based Chef Assistant",
@@ -182,7 +182,7 @@ export const PROJECTS = [
     demo: null,
   },
 ];
-
+ 
 export const SERVICES = [
   {
     title: "AI-Assisted Applications",
@@ -203,7 +203,7 @@ export const SERVICES = [
     icon: "terminal",
   },
 ];
-
+ 
 export const CONTACT_INFO = [
   { label: "Email", value: PROFILE.email, href: `mailto:${PROFILE.email}` },
   { label: "Phone", value: PROFILE.phone, href: `tel:${PROFILE.phone.replace(/-/g, "")}` },
