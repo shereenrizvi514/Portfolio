@@ -131,7 +131,7 @@ export default function Hero() {
               />
             </div>
             <div className="absolute -bottom-5 -left-5 rounded-2xl bg-bg-soft/90 px-4 py-3 font-mono text-xs text-cyan glow-border backdrop-blur">
-              BS-AI · 3rd Year
+              BS-AI · 4th semester
             </div>
             <div className="absolute -top-5 -right-4 rounded-2xl bg-bg-soft/90 px-4 py-3 font-mono text-xs text-purple glow-border backdrop-blur">
               {PROFILE.location}
