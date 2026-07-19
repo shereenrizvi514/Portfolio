@@ -21,7 +21,7 @@ export const PROFILE = {
 };
  
 export const STATS = [
-  { label: "Projects Built", value: 8 },
+  { label: "Projects Built", value: 11 },
   { label: "Years Learning AI", value: 2 },
   { label: "Internships & Fellowships", value: 3 },
   { label: "Languages & Tools", value: 10 },
@@ -125,6 +125,30 @@ export const EXPERIENCE = [
 ];
  
 export const PROJECTS = [
+  {
+    title: "Sarah's Salon — Voice Agent",
+    description:
+      "A voice-driven virtual agent concept for a salon, designed to handle bookings and customer queries through natural conversation.",
+    tags: ["HTML", "Voice AI"],
+    github: "https://github.com/shereenrizvi514/sarahs-salon_voice_agent",
+    demo: null,
+  },
+  {
+    title: "Fake News Detector",
+    description:
+      "A machine learning model that classifies news content as credible or fake, built while learning core ML and NLP concepts.",
+    tags: ["Python", "Machine Learning"],
+    github: "https://github.com/shereenrizvi514/fake-news-detector",
+    demo: null,
+  },
+  {
+    title: "Coffee Café Website",
+    description:
+      "A clean, responsive website for a coffee café with a welcoming layout, menu section, and mobile-friendly design.",
+    tags: ["HTML", "CSS"],
+    github: "https://github.com/shereenrizvi514/Coffee-Cafe-Website",
+    demo: null,
+  },
   {
     title: "AI-Based Chef Assistant",
     description:
