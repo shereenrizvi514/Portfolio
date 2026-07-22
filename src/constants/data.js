@@ -88,15 +88,6 @@ export const EXPERIENCE = [
     ],
   },
   {
-    date: "June 2026 — Present",
-    title: "Tech Fellow — Tech Fellowship",
-    org: "AuratTech",
-    points: [
-      "Selected for AuratTech's Tech Fellowship, a structured cohort-based program combining mentorship, training sessions, and collaborative projects in technology.",
-      "Participating in fellowship orientation and ongoing programme activities focused on building industry-ready technical skills.",
-    ],
-  },
-  {
     date: "July 2025 — August 2025",
     title: "Web Development Intern",
     org: "Furson Studio",
